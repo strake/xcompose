@@ -307,6 +307,7 @@ include "%L"
 <Multi_key> <slash> <underscore> <underscore> <backslash>    : "⊼" U22BC     # NAND
 <Multi_key> <backslash> <underscore> <underscore> <slash>    : "⊽" U22BD     # NOR
 <Multi_key> <minus> <comma>	     :	"¬"	U00AC 		# NOT SIGN
+<Multi_key> <period> <minus>		: "∸" U2238		# DOT MINUS
 <Multi_key> <period> <o>              : "∘"   U2218           # RING OPERATOR (function composition)
 <Multi_key> <period> <x>             : "⨯"   U2A2F           # CROSS PRODUCT
 <Multi_key> <period>  <period>        : "⋅"   U22C5           # DOT OPERATOR (dot product)
