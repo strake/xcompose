@@ -307,20 +307,18 @@ include "%L"
 <Multi_key> <slash> <underscore> <underscore> <backslash>    : "⊼" U22BC     # NAND
 <Multi_key> <backslash> <underscore> <underscore> <slash>    : "⊽" U22BD     # NOR
 <Multi_key> <minus> <comma>	     :	"¬"	U00AC 		# NOT SIGN
-<Multi_key> <Multi_key> <asterisk> <o>              : "∘"   U2218           # RING OPERATOR (function composition)
-<Multi_key> <Multi_key> <asterisk> <x>             : "⨯"   U2A2F           # CROSS PRODUCT
-<Multi_key> <Multi_key> <asterisk>  <period>        : "⋅"   U22C5           # DOT OPERATOR (dot product)
+<Multi_key> <period> <o>              : "∘"   U2218           # RING OPERATOR (function composition)
+<Multi_key> <period> <x>             : "⨯"   U2A2F           # CROSS PRODUCT
+<Multi_key> <period>  <period>        : "⋅"   U22C5           # DOT OPERATOR (dot product)
 <Multi_key> <0> <slash>                 : "∅"   U2205           # EMPTY SET (thanks jsled!)
 <Multi_key> <slash> <0>                 : "∅"   U2205           # EMPTY SET
-# I'm hoping { can work as a set mnemonic
-<Multi_key> <braceleft> <U>		: "∪"	U222A		# UNION
-<Multi_key> <braceleft> <asciicircum>	: "∩"	U2229		# INTERSECTION
-<Multi_key> <braceleft> <parenleft>	: "⊂"	U2282		# SUBSET OF
-<Multi_key> <braceleft> <equal> <parenleft> : "⊆" U2286		# SUBSET OF OR EQUAL TO
-<Multi_key> <exclam> <braceleft> <parenleft> : "⊄" U2284        # NOT A SUBSET OF
-<Multi_key> <slash> <braceleft> <parenleft>  : "⊄" U2284        # NOT A SUBSET OF
-<Multi_key> <braceleft>	<parenright>	: "⊃"	U2283		# SUPERSET OF
-<Multi_key> <braceleft> <equal> <parenright> : "⊇" U2287	# SUPERSET OF OR EQUAL TO
+<Multi_key> <period> <u>		: "∪"	U222A		# UNION
+<Multi_key> <period> <n>		: "∩"	U2229		# INTERSECTION
+<Multi_key> <period> <less>		: "⊂"	U2282		# SUBSET OF
+<Multi_key> <period> <equal> <less>	: "⊆" U2286		# SUBSET OF OR EQUAL TO
+<Multi_key> <slash> <period> <less>	: "⊄" U2284        # NOT A SUBSET OF
+<Multi_key> <period> <greater>		: "⊃"	U2283		# SUPERSET OF
+<Multi_key> <period> <equal> <greater>	: "⊇" U2287	# SUPERSET OF OR EQUAL TO
 <Multi_key> <E> <E>                     : "∃"  U2203           # THERE EXISTS
 # We can't use ! E E, because ! E maps to E-WITH-UNDERDOT.
 <Multi_key> <slash> <E> <E>             : "∄"   U2204           # THERE DOES NOT EXIST
@@ -329,20 +327,17 @@ include "%L"
 <Multi_key> <8> <8>                     : "∞"  U221E           # INFINITY
 <Multi_key> <Multi_key> <i> <n> <f>     : "∞"  U221E           # INFINITY
 <Multi_key> <Multi_key> <a> <l> <e> <p> <h> : "ℵ" U2135	       # ALEF SYMBOL
-<Multi_key> <Multi_key> <a> <l> <e> <p> <0> : "ℵ₀"        # ALEF Null
-<Multi_key> <Multi_key> <a> <l> <e> <p> <1> : "ℵ₁"        # ALEF One
-<Multi_key> <Multi_key> <a> <l> <e> <f> : "ℵ" U2135	       # ALEF SYMBOL
+<Multi_key> <Multi_key> <a> <l> <e> <f>     : "ℵ" U2135	       # ALEF SYMBOL
+<Multi_key> <Multi_key> <a> <l> <e> <f> <0> : "ℵ₀"        # ALEF Null
+<Multi_key> <Multi_key> <a> <l> <e> <f> <1> : "ℵ₁"        # ALEF One
 <Multi_key> <KP_Multiply> <KP_Multiply>    : "∗"   U2217 # ASTERISK OPERATOR
 <Multi_key> <parenleft> <plus> <parenright>     : "⊕"  U2295    # CIRCLED PLUS
 <Multi_key> <parenleft> <minus> <parenright>    : "⊖"  U2296    # CIRCLED MINUS
 <Multi_key> <parenleft> <x> <x> <parenright>    : "⊗"  U2297    # CIRCLED TIMES
 <Multi_key> <parenleft> <slash> <parenright>    : "⊘"  U2298    # CIRCLED DIVISION SLASH
 <Multi_key> <parenleft> <asterisk> <parenright> : "⊛"  U229B    # CIRCLED ASTERISK OPERATOR
-# )- conflicts with system for }.
-<Multi_key> <parenright> <underscore>    : "⟌"   	U27CC		# LONG DIVISION
 <Multi_key> <period> <quotedbl>	   	: "∴"	U2234  		# THEREFORE
 <Multi_key> <quotedbl> <period>	   	: "∵"	U2235  		# BECAUSE
-<Multi_key> <Multi_key> <b> <e> <c> <a> <u> <s> <e>	   	: "∵"	U2235  		# BECAUSE
 <Multi_key> <percent> <percent>		: "‱"	U2031	# PER TEN THOUSAND (basis points)
 <Multi_key> <slash> <u>                : "µ"   U00B5      # MICRO SIGN
 <Multi_key> <colon> <colon>     	: "∷"	U2237	# PROPORTION
