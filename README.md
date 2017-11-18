@@ -1,17 +1,14 @@
 .XCompose
 =========
 
-As explained in <http://canonical.org/~kragen/setting-up-keyboard.html>,
-your Compose key in X11 is controlled by (among other things) the file
-`.XCompose` in your home directory.  This file gives you a large set
-of bindings for Unicode characters that are useful occasionally.
+This repo contains a large set of X11 Compose key sequences.
 
-More contributions are welcome; there's a Git repository at
-<http://github.org/kragen/xcompose>.  We're trying to come up with a
-broadly acceptable set of keybindings that won't interfere with the
-traditional Compose bindings, aren't too hard to type, and cover a
-wide set of characters that are useful to use occasionally, making
-them available without the need for specialized input methods.
+More contributions are welcome; please make a pull request at
+<http://github.org/strake/xcompose> or send a patch to <strake888@gmail.com>.
+We seek a broadly acceptable set of keybindings which won't interfere with the
+traditional Compose bindings, aren't too hard to type, and cover a wide set of
+occasionally-useful characters, making them available sans specialized input
+methods.
 
 After installing `.XCompose` you will need to restart any applications
 to see its effect for that application. Not all applications support
@@ -24,14 +21,14 @@ may take a few more commands.  Use `make` to generate the extension files
 want to use our `install` script, but rather create your own `.XCompose`
 (perhaps with your own personal entries) along these lines:
 
-     include "/path/to/dotXCompose"
-	 include "/path/to/frakturcompose"
-	 include "/path/to/emoji.compose"
-	 include "/path/to/modletters.compose"
-	 include "/path/to/parens.compose"
+	include "/path/to/dotXCompose"
+	include "/path/to/frakturcompose"
+	include "/path/to/emoji.compose"
+	include "/path/to/modletters.compose"
+	include "/path/to/parens.compose"
 
-	 # I complain a lot, oy...
-	 <Multi_key> <O> <Y>	: "ѹ" U0479	# CYRILLIC SMALL LETTER UK
-	 # My very original smileyface!
-	 <Multi_key> <parenleft> <t> <u> <parenright> : "㋡" U32E1 # CIRCLED KATAKANA TU
-	 # ...
+	# I complain a lot, oy...
+	<Multi_key> <O> <Y>	: "ѹ" U0479	# CYRILLIC SMALL LETTER UK
+	# My very original smileyface!
+	<Multi_key> <parenleft> <t> <u> <parenright> : "㋡" U32E1 # CIRCLED KATAKANA TU
+	# ...
