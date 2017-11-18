@@ -446,8 +446,8 @@ include "%L"
 <Multi_key> <2> <greater> <parenleft> :   "⟪"	U27EA	# MATHEMATICAL LEFT DOUBLE ANGLE BRACKET
 <Multi_key> <2> <less> <parenright>   :   "⟫"	U27EB	# MATHEMATICAL RIGHT DOUBLE ANGLE BRACKET
 # Keystrokes inconsistent.
-<Multi_key> <bar> <bar> <parenleft>	:   "⟬"  U27EC	# MATHEMATICAL LEFT WHITE TORTOISE SHELL BRACKET
-<Multi_key> <bar> <bar> <parenright>:   "⟭"	U27ED	# MATHEMATICAL RIGHT WHITE TORTOISE SHELL BRACKET
+#<Multi_key> <bar> <bar> <parenleft>	:   "⟬"  U27EC	# MATHEMATICAL LEFT WHITE TORTOISE SHELL BRACKET
+#<Multi_key> <bar> <bar> <parenright>:   "⟭"	U27ED	# MATHEMATICAL RIGHT WHITE TORTOISE SHELL BRACKET
 <Multi_key> <underscore> <underscore> <parenleft> :   "⟮"  U27EE	# MATHEMATICAL LEFT FLATTENED PARENTHESIS
 <Multi_key> <underscore> <underscore> <parenright>:   "⟯"  U27EF	# MATHEMATICAL RIGHT FLATTENED PARENTHESIS
 <Multi_key> <parenleft> <bracketleft>	:   "⦗"	U2997	# LEFT BLACK TORTOISE SHELL BRACKET
@@ -1387,3 +1387,5 @@ include "%L"
 <Multi_key> <braceright> <braceright> : "⦄" U2984
 
 <Multi_key> <ampersand> <ampersand> : "⅋" U214B
+
+<Multi_key> <bar> <bar> : "‖"
