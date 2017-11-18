@@ -162,7 +162,7 @@ include "%L"
 <Multi_key> <Up> <minus>     		: "⇡"	U21E1		# UPWARDS DASHED ARROW
 <Multi_key> <Right> <minus>     	: "⇢"	U21E2		# RIGHTWARDS DASHED ARROW
 <Multi_key> <Down> <minus>      	: "⇣"	U21E3		# DOWNWARDS DASHED ARROW
-<Multi_key> <less> <minus> <minus>	: "⟵"	U27F5		# LONG LEFTWARDS ARROW
+<Multi_key> <minus> <minus> <less>	: "⟵"	U27F5		# LONG LEFTWARDS ARROW
 <Multi_key> <minus> <minus> <greater>	: "⟶"	U27F6		# LONG RIGHTWARDS ARROW
 <Multi_key> <less> <minus> <less>	: "↢"	U21A2		# LEFTWARDS ARROW WITH TAIL
 <Multi_key> <greater> <minus> <greater>	: "↣"	U21A3		# RIGHTWARDS ARROW WITH TAIL
