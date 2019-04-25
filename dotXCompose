@@ -296,13 +296,11 @@ include "%L"
 <Multi_key> <plus> <plus> <greater>  	: "⋙"	U22D9		# VERY MUCH GREATER-THAN
 <Multi_key> <3> <greater> 		: "⋙"	U22D9		# VERY MUCH GREATER-THAN
 <Multi_key> <3> <less>			: "⋘"	U22D8		# VERY MUCH LESS-THAN
-<Multi_key> <i> <n>			: "∈"	U2208		# ELEMENT OF
-<Multi_key> <slash> <i> <n>		: "∉"	U2209		# NOT AN ELEMENT OF
-<Multi_key> <exclam> <i> <n>		: "∉"	U2209		# NOT AN ELEMENT OF
+<Multi_key> <e> <l>			: "∈"	U2208		# ELEMENT OF
+<Multi_key> <slash> <e> <l>		: "∉"	U2209		# NOT AN ELEMENT OF
 <Multi_key> <U2208> <slash>		: "∉"	U2209		# NOT AN ELEMENT OF (I have ∈ on my keyboard...)
-<Multi_key> <n> <i>			: "∋"	U220B		# CONTAINS AS MEMBER  (I hope this doesn't conflict)
-<Multi_key> <slash> <n> <i>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
-# <exclam><n><i> would conflict, with <exclam> <n> for N WITH UNDERDOT, etc.
+<Multi_key> <l> <e>			: "∋"	U220B		# CONTAINS AS MEMBER  (I hope this doesn't conflict)
+<Multi_key> <slash> <l> <e>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
 <Multi_key> <U220B> <slash>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
 <Multi_key> <asciitilde> <equal>			: "≅"	U2245		# APPROXIMATELY EQUAL TO (It actually means "congruent"!)
 <Multi_key> <equal> <question>		: "≟"	U225f		# QUESTIONED EQUAL TO
@@ -364,7 +362,7 @@ include "%L"
 <Multi_key> <period> <quotedbl>	   	: "∴"	U2234  		# THEREFORE
 <Multi_key> <quotedbl> <period>	   	: "∵"	U2235  		# BECAUSE
 <Multi_key> <percent> <percent>		: "‱"	U2031	# PER TEN THOUSAND (basis points)
-<Multi_key> <slash> <u>                : "µ"   U00B5      # MICRO SIGN
+#<Multi_key> <slash> <u>                : "µ"   U00B5      # MICRO SIGN
 <Multi_key> <colon> <colon>     	: "∷"	U2237	# PROPORTION
 # Ordinal indicators, for femenine and masculine, used in Romance languages
 <Multi_key> <minus> <a>	      	  	: "ª"   U00AA		# FEMININE ORDINAL INDICATOR
@@ -964,6 +962,8 @@ include "%L"
 <Multi_key> <question> <v>		: "ʖ"	U0296		# LATIN LETTER INVERTED GLOTTAL STOP
 <Multi_key> <question> <minus>		: "ʡ"	U02A1		# LATIN LETTER GLOTTAL STOP WITH STROKE
 <Multi_key> <question> <braceleft>	: "ʢ"	U02A2		# LATIN LETTER REVERSED GLOTTAL STOP WITH STROKE
+<Multi_key> <j> <n>			: "ɲ"	U0272		# LATIN SMALL   LETTER N WITH LEFT HOOK
+<Multi_key> <J> <N>			: "Ɲ"	U019D		# LATIN CAPITAL LETTER N WITH LEFT HOOK
 # How about ɸ? φ isn’t the IPA glyph.
 <Multi_key> <p> <h>			: "ɸ"	U0278		# LATIN SMALL LETTER PHI
 <Multi_key> <i> <h>    			: "ɪ"	U026A		# LATIN LETTER SMALL CAPITAL I
@@ -982,6 +982,10 @@ include "%L"
 <Multi_key> <BackSpace> <e> <h>		: "ɜ"	U025C		# LATIN SMALL LETTER REVERSED OPEN E
 <Multi_key> <less> <e> <r>		: "ɝ"	U025D		# LATIN SMALL LETTER REVERSED OPEN E WITH HOOK
 <Multi_key> <BackSpace> <e> <r>		: "ɝ"	U025D		# LATIN SMALL LETTER REVERSED OPEN E WITH HOOK
+<Multi_key> <slash> <i>			: "ɨ"	U0268		# LATIN SMALL LETTER I BAR
+<Multi_key> <slash> <u>			: "ʉ"	U0289		# LATIN SMALL LETTER U BAR
+<Multi_key> <slash> <I>			: "Ɨ"	U0197		# LATIN CAPITAL LETTER I BAR
+<Multi_key> <slash> <U>			: "Ʉ"	U0244		# LATIN CAPITAL LETTER U BAR
 # It's spelled "gy" in Hungarian...
 <Multi_key> <g> <y>			: "ɟ"	U025F		# LATIN SMALL LETTER DOTLESS J WITH STROKE
 # How are these keystrokes?
