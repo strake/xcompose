@@ -443,8 +443,8 @@ include "%L"
 <Multi_key> <greater> <parenright>: "⟩" U27E9	# MATHEMATICAL RIGHT ANGLE BRACKET
 <Multi_key> <bar> <bracketleft>	:   "⟦"	U27E6	# MATHEMATICAL LEFT WHITE SQUARE BRACKET
 <Multi_key> <bar> <bracketright>:   "⟧"	U27E7	# MATHEMATICAL RIGHT WHITE SQUARE BRACKET
-<Multi_key> <2> <greater> <parenleft> :   "⟪"	U27EA	# MATHEMATICAL LEFT DOUBLE ANGLE BRACKET
-<Multi_key> <2> <less> <parenright>   :   "⟫"	U27EB	# MATHEMATICAL RIGHT DOUBLE ANGLE BRACKET
+<Multi_key> <2> <less> <parenleft> :   "⟪"	U27EA	# MATHEMATICAL LEFT DOUBLE ANGLE BRACKET
+<Multi_key> <2> <greater> <parenright>   :   "⟫"	U27EB	# MATHEMATICAL RIGHT DOUBLE ANGLE BRACKET
 # Keystrokes inconsistent.
 #<Multi_key> <bar> <bar> <parenleft>	:   "⟬"  U27EC	# MATHEMATICAL LEFT WHITE TORTOISE SHELL BRACKET
 #<Multi_key> <bar> <bar> <parenright>:   "⟭"	U27ED	# MATHEMATICAL RIGHT WHITE TORTOISE SHELL BRACKET
