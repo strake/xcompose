@@ -1388,3 +1388,12 @@ include "%L"
 
 <Multi_key> <less>   <bracketright> : "⇦" U21E6
 <Multi_key> <bracketleft> <greater> : "⇨" U21E8
+
+<Multi_key> <dollar> <G> <B> <P> : "£" U00A3 # POUND SIGN
+<Multi_key> <dollar> <g> <b> <p> : "£" U00A3 # POUND SIGN
+<Multi_key> <dollar> <Y> <E> <N> : "¥" U00A5 # YEN SIGN
+<Multi_key> <dollar> <y> <e> <n> : "¥" U00A5 # YEN SIGN
+<Multi_key> <dollar> <L> <I> <R> : "₤" 020A4 # LIRA SIGN
+<Multi_key> <dollar> <l> <i> <r> : "₤" 020A4 # LIRA SIGN
+<Multi_key> <dollar> <E> <U> <R> : "€" U20AC # EURO SIGN
+<Multi_key> <dollar> <e> <u> <r> : "€" U20AC # EURO SIGN
